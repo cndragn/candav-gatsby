@@ -7,12 +7,16 @@ const Details = () => (
 				<div className="card">
 					<div className="card-body">
 						<h3 className="card-title">Skills</h3>
-						<h4>Front End:</h4>
-						<p className="card-text">HTML, CSS, Sass, JavaScript, ReactJS, jQuery, Bootstrap</p>
+						<h4>Web Technologies:</h4>
+						<p className="card-text">React.js, Redux, JavaScript, HTML, CSS, Sass, jQuery, Bootstrap</p>
 						<h4>Back End:</h4>
-						<p className="card-text">Ruby, Ruby on Rails, RESTful API</p>
-						<h4>Project Management:</h4>
-						<p className="card-text">NPM, Webpack, Git, Agile, TDD</p>
+						<p className="card-text">
+							Azure AD, Ruby, Ruby on Rails, RESTful API, OAuth, MongoDB, Express.js, Node.js
+						</p>
+						<h4>Project Tools:</h4>
+						<p className="card-text">
+							Azure DevOps, Travis-CI, Heroku, Git, Github, Gitlab, VSC, Jest, Enzyme, Agile, npm
+						</p>
 					</div>
 				</div>
 			</div>
