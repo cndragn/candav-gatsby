@@ -1,4 +1,5 @@
 import React from 'react';
+import myPic from '../images/candice-wyn.jpg';
 
 const Header = () => (
 	<header>
@@ -6,7 +7,7 @@ const Header = () => (
 			<div className="entry-title">
 				<div className="bio row mt-sm-4 mt-md-0">
 					<div className="col-sm-12 col-md-4">
-						<img src="images/candice-wyn.jpg" alt="Candice Wyncode Academy" />
+						<img src={myPic} alt="Candice Profile Photo" />
 					</div>
 					<div className="col-sm-12 col-md-8 text-sm-center text-md-left">
 						<h3>Hello, My name is Candice!</h3>
