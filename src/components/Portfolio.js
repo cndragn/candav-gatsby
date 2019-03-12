@@ -47,7 +47,7 @@ const Portfolio = () => (
 			<Project
 				image={calculator}
 				tech="HTML | CSS | JavaScript | jQuery"
-				demo="https://memori-wyn.herokuapp.com/"
+				demo="http://candav-jscalc.surge.sh/"
 				github="https://github.com/cndragn/javascript-calculator"
 			/>
 		</div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import resume from '../download/DavidsonCandice-Resume.pdf';
 
 const Social = () => (
 	<div className="social">
@@ -15,7 +14,11 @@ const Social = () => (
 				</a>
 			</li>
 			<li>
-				<a href={resume} target="_blank" rel="noopener noreferrer">
+				<a
+					href="https://docs.google.com/document/d/1tcSlib83Tx6imyr99TJLmGz7WTWHCgDRT1pJ3sp3Vs0/edit?usp=sharing"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					Resume
 				</a>
 			</li>
