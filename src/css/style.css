@@ -5,42 +5,30 @@
 * {
 	box-sizing: border-box;
 }
-
+body,
+html {
+	height: 100%;
+}
 body {
 	font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
-	background-color: #2cb2d9;
+
 	font-size: 1.1rem;
-}
-.mb-20 {
-	margin-bottom: 20px;
+	margin: 0;
 }
 
-/* TOP NAVIGATION */
-.navbar {
-	background-color: #fff;
-	padding: 0 1rem;
-	min-height: 50px;
-	border: 1px solid #dee2e6;
+#___gatsby {
+	min-height: 100vh;
+	position: relative;
+	padding-bottom: 60px;
+	background: linear-gradient(to bottom right, #2cb2d9 25%, #34c587 75%);
 }
-.navbar .custom-logo-link img {
-	max-height: 40px;
-	width: auto;
-	float: left;
+
+#___gatsby #home {
+	background-color: #2cb2d9;
 }
-.navbar .brand-name {
-	font-family: 'Chopin', Helvetica, Arial, sans-serif;
-	color: #212529;
-	font-size: 2.5rem;
-	padding: 0;
-}
-.nav-item {
-	height: 60px;
-}
-li.nav-item:hover {
-	background-color: #e8f4f7;
-}
-.nav-link {
-	margin-top: 10px;
+
+.mb-20 {
+	margin-bottom: 20px;
 }
 
 /* JUMBOTRON */
@@ -159,6 +147,11 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
 }
 footer p {
 	margin: 0;
@@ -167,11 +160,6 @@ footer img {
 	max-height: 30px;
 	width: auto;
 	margin-right: 7px;
-}
-footer .brand-name {
-	font-family: 'Chopin', Helvetica, Arial, sans-serif;
-	color: #ffffff;
-	padding: 0;
 }
 
 /* BLOG */
@@ -212,9 +200,6 @@ body .blog {
 	}
 	.entry-title h2 {
 		font-size: 1.7rem;
-	}
-	.custom-logo-link {
-		display: none;
 	}
 	.bio img {
 		width: 180px;

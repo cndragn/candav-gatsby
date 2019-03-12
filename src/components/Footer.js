@@ -6,7 +6,7 @@ const Footer = () => (
 		<p className="brand-name">
 			<img src={logo} className="img-fluid" alt="Candice Davidson" />
 		</p>
-		<p>© 2019 Candice Davidson</p>
+		<p>© {new Date().getFullYear()} Candice Davidson</p>
 	</footer>
 );
 
