@@ -12,8 +12,8 @@ const Header = () => (
 					<div className="col-sm-12 col-md-8 text-sm-center text-md-left">
 						<h3>Hello, My name is Candice!</h3>
 						<p className="lead">
-							I am a Full-Stack Developer, based in Miami, FL, who is devoted to combining the art of
-							design with functional programming.
+							I am a Software Developer, based in Miami, FL, who is devoted to combining the art of design
+							with functional programming.
 						</p>
 					</div>
 				</div>
