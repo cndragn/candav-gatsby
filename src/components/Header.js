@@ -1,24 +1,23 @@
 import React from 'react';
-import { Jumbotron, Container, Row, Col } from 'reactstrap';
 
 const Header = () => (
 	<header>
-		<Jumbotron>
-			<Container>
-				<Row>
-					<Col sm="12" md="4">
-						Image
-					</Col>
-					<Col sm="12" md="8">
-						<h1>Hello, My name is Candice!</h1>
-						<p class="lead">
+		<div className="jumbotron">
+			<div className="entry-title">
+				<div className="bio row mt-sm-4 mt-md-0">
+					<div className="col-sm-12 col-md-4">
+						<img src="images/candice-wyn.jpg" alt="Candice Wyncode Academy" />
+					</div>
+					<div className="col-sm-12 col-md-8 text-sm-center text-md-left">
+						<h3>Hello, My name is Candice!</h3>
+						<p className="lead">
 							I am a Full-Stack Developer, based in Miami, FL, who is devoted to combining the art of
 							design with functional programming.
 						</p>
-					</Col>
-				</Row>
-			</Container>
-		</Jumbotron>
+					</div>
+				</div>
+			</div>
+		</div>
 	</header>
 );
 
