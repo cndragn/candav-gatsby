@@ -10,7 +10,7 @@ const Header = () => (
 						Image
 					</Col>
 					<Col sm="12" md="8">
-						<h3>Hello, My name is Candice!</h3>
+						<h1>Hello, My name is Candice!</h1>
 						<p class="lead">
 							I am a Full-Stack Developer, based in Miami, FL, who is devoted to combining the art of
 							design with functional programming.
