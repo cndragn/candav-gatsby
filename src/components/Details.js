@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
 
 const Details = () => (
 	<div className="container main">
@@ -23,13 +22,11 @@ const Details = () => (
 						<h3 className="card-title">Get In Touch</h3>
 						<p className="card-text">
 							<i className="fa fa-envelope" aria-hidden="true" />
-							<a href="https://web.archive.org/web/20180813064807/mailto:cndragn@gmail.com">
-								cndragn@gmail.com
-							</a>
+							<a href="mailto:cndragn@gmail.com">cndragn@gmail.com</a>
 						</p>
 						<p className="card-text">
 							<i className="fa fa-phone" aria-hidden="true" />
-							<a href="https://web.archive.org/web/20180813064807/tel:305-432-4789">305-432-4789</a>
+							<a href="tel:305-432-4789">305-432-4789</a>
 						</p>
 					</div>
 				</div>
