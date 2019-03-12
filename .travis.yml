@@ -1,0 +1,15 @@
+language: node_js
+node_js: 
+  - "stable" 
+cache: 
+  directories: 
+    - node_modules 
+script: 
+  - gatsby build 
+deploy: 
+  provider: surge 
+  skip_cleanup: true 
+  domain: cndtesting.surge.sh
+  project: ./public/ 
+on: 
+  branch: master
