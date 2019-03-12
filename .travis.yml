@@ -9,7 +9,7 @@ script:
 deploy: 
   provider: surge 
   skip_cleanup: true 
-  domain: cndtesting.surge.sh
+  domain: candicedavidson.com
   project: ./public/ 
 on: 
   branch: master
