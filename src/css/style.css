@@ -1,0 +1,232 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+	background-color: #2cb2d9;
+}
+.mb-20 {
+	margin-bottom: 20px;
+}
+
+/* TOP NAVIGATION */
+.navbar {
+	background-color: #fff;
+	padding: 0 1rem;
+	min-height: 50px;
+	border: 1px solid #dee2e6;
+}
+.navbar .custom-logo-link img {
+	max-height: 40px;
+	width: auto;
+	float: left;
+}
+.navbar .brand-name {
+	font-family: 'Chopin', Helvetica, Arial, sans-serif;
+	color: #212529;
+	font-size: 2.5rem;
+	padding: 0;
+}
+.nav-item {
+	height: 60px;
+}
+li.nav-item:hover {
+	background-color: #e8f4f7;
+}
+.nav-link {
+	margin-top: 10px;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+	background: linear-gradient(to bottom right, #2cb2d9 25%, #34c587 75%);
+	background-size: cover;
+	background-position: center;
+	border: 0;
+	margin-bottom: 0;
+}
+.entry-title {
+	text-align: center;
+	padding: 20px;
+	width: 70%;
+	margin: 0 auto;
+	font-size: 40px;
+	color: #fff;
+}
+.entry-title h3 {
+	font-size: 2rem;
+	line-height: 5rem;
+	font-weight: bold;
+}
+p.lead {
+	font-size: 1.7rem;
+	line-height: 1.7rem;
+}
+
+/* SOCIAL */
+
+.container p {
+	font-size: 1.3rem;
+}
+
+.social {
+	border-top: 2px solid white;
+	background-color: #f9f6e6;
+	margin-bottom: 50px;
+}
+.social ul {
+	padding: 1em;
+	margin: 0;
+	text-align: center;
+}
+.social li {
+	display: inline;
+	margin: 0 1.6em;
+}
+.social a {
+	color: #117390;
+	text-decoration: none;
+}
+
+/* BIO */
+.bio img {
+	max-width: 100%;
+	border: 6px solid #f9f6e6;
+	width: 250px;
+	border-radius: 50%;
+}
+
+.fa {
+	font-size: 16px;
+	margin-right: 15px;
+}
+.fa-github {
+	color: #6e5494;
+}
+
+/* CARDS */
+.card {
+	background-color: transparent;
+	border: 0;
+}
+h3 {
+	color: #fff;
+	font-weight: bold;
+	border-bottom: 4px solid #20a2ce;
+}
+.container p {
+	color: #fff;
+}
+.container a,
+.container a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+.container a:hover {
+	color: #ddebef;
+}
+
+/* PROJECTS */
+.projects {
+	padding: 0 1.25rem;
+}
+
+.projects img {
+	max-width: 100%;
+	border: 8px solid #f9f6e6;
+	/* margin-bottom: 2rem; */
+}
+/* FOOTER */
+footer {
+	background-color: #0da2ce;
+	text-align: center;
+	color: #ffffff;
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+footer p {
+	margin: 0;
+}
+footer img {
+	max-height: 30px;
+	width: auto;
+	margin-right: 7px;
+}
+footer .brand-name {
+	font-family: 'Chopin', Helvetica, Arial, sans-serif;
+	color: #ffffff;
+	padding: 0;
+}
+
+/* BLOG */
+
+body .blog {
+	font-size: 1.2rem;
+}
+
+.blog p {
+	color: inherit;
+}
+
+.blog-nav li {
+	display: inline-block;
+}
+
+.blog h1 {
+	font-weight: bold;
+	border-bottom: 4px solid #20a2ce;
+}
+
+.blog li {
+	list-style-type: none;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 850px) {
+}
+
+@media screen and (max-width: 769px) {
+	.entry-title {
+		width: 100%;
+		padding: 15px 0 0;
+		font-size: 35px;
+	}
+	.entry-title h1 {
+		font-size: 2rem;
+	}
+	.entry-title h2 {
+		font-size: 1.7rem;
+	}
+	.custom-logo-link {
+		display: none;
+	}
+	.bio img {
+		width: 180px;
+	}
+	.bio h3 {
+		font-size: 1.8rem;
+	}
+	.bio p.lead {
+		font-size: 1.4rem;
+	}
+	.projects {
+		padding-top: 1.25rem;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.container a,
+	.container a:hover {
+		text-decoration: none;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.entry-title h3 {
+		font-size: 1.4rem;
+		line-height: 3rem;
+	}
+}
