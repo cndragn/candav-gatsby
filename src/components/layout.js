@@ -11,7 +11,7 @@ import { StaticQuery, graphql } from 'gatsby';
 
 import Header from './PageHeader';
 import Footer from './Footer';
-// import "./layout.css"
+import './layout.css';
 
 const Layout = ({ children }) => (
 	<StaticQuery
@@ -28,7 +28,7 @@ const Layout = ({ children }) => (
 			<div>
 				<Header siteTitle={data.site.siteMetadata.title} />
 				<div>
-					<main className="container">{children}</main>
+					<main className="page container">{children}</main>
 					<Footer />
 				</div>
 			</div>

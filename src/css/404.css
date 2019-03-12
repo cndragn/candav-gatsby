@@ -1,0 +1,11 @@
+h1.uhoh {
+	font-size: 4rem;
+}
+.notfound {
+	width: 80%;
+	margin: 0 auto;
+}
+.notfound img {
+	width: 500px;
+	max-width: 100%;
+}
