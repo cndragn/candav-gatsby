@@ -93,7 +93,34 @@ transform: rotateX(0);
 opacity: 0.9;
 } */
 
-figcaption .fab,
-h4 {
+figcaption .fab {
 	display: none;
+}
+
+.pg img {
+	max-width: 100%;
+	vertical-align: top;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.pg img:hover {
+	-webkit-transform: scale(1.02);
+	transform: scale(1.02);
+}
+
+figcaption {
+	text-align: center;
+}
+.pg a,
+.pg h4 {
+	margin: 0;
+	font-weight: 600;
+	position: unset;
+	font-size: .9rem;
+}
+
+.pg h4 {
+	margin-top: 3px;
 }
