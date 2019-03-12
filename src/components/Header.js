@@ -1,30 +1,24 @@
-import { Link } from 'gatsby';
 import React from 'react';
+import { Jumbotron, Container, Row, Col } from 'reactstrap';
 
 const Header = () => (
-	<header
-		style={{
-			background: `rebeccapurple`,
-			marginBottom: `1.45rem`
-		}}
-	>
-		<div
-			style={{
-				margin: `0 auto`,
-				maxWidth: 960,
-				padding: `1.45rem 1.0875rem`
-			}}
-		>
-			<h1 style={{ margin: 0 }}>
-				<Link
-					to="/"
-					style={{
-						color: `white`,
-						textDecoration: `none`
-					}}
-				/>
-			</h1>
-		</div>
+	<header>
+		<Jumbotron>
+			<Container>
+				<Row>
+					<Col sm="12" md="4">
+						Image
+					</Col>
+					<Col sm="12" md="8">
+						<h3>Hello, My name is Candice!</h3>
+						<p class="lead">
+							I am a Full-Stack Developer, based in Miami, FL, who is devoted to combining the art of
+							design with functional programming.
+						</p>
+					</Col>
+				</Row>
+			</Container>
+		</Jumbotron>
 	</header>
 );
 
