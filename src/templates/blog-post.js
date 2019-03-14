@@ -4,6 +4,8 @@ import PrevNext from '../components/PrevNext';
 import Img from 'gatsby-image';
 import Metatags from '../components/Metatags';
 import { graphql } from 'gatsby';
+import '../css/blog.css';
+
 function BlogPost({ data, location, pageContext }) {
 	const post = data.markdownRemark;
 	const url = data.site.siteMetadata.siteUrl;
@@ -20,10 +22,14 @@ function BlogPost({ data, location, pageContext }) {
 				pathname={location.pathname}
 			/>
 			<div>
-				<h1>{title}</h1>
 				<Img fluid={post.frontmatter.image.childImageSharp.fluid} />
-				<div dangerouslySetInnerHTML={{ __html: post.html }} />
-				<PrevNext prev={prev && prev.node} next={next && next.node} />
+				<div className="container">
+					<h1 className="blog-title">{title}</h1>
+					<div className="blog-entry">
+						<div dangerouslySetInnerHTML={{ __html: post.html }} />
+						<PrevNext prev={prev && prev.node} next={next && next.node} />
+					</div>
+				</div>
 			</div>
 		</Layout>
 	);
@@ -40,7 +46,7 @@ export const query = graphql`
 				description
 				image {
 					childImageSharp {
-						resize(width: 1500, height: 1500) {
+						resize(width: 1500, height: 400) {
 							src
 						}
 						fluid(maxWidth: 786) {

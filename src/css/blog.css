@@ -1,0 +1,22 @@
+.gatsby-image-wrapper {
+	margin-bottom: 30px;
+}
+
+.blog-title {
+	color: #fff;
+	border-bottom: 4px solid #20a2ce;
+}
+
+h1.blog-title {
+	font-size: 2rem;
+}
+
+.blog-entry {
+	background-color: #fff;
+	padding: 25px;
+	margin-bottom: 25px;
+}
+
+.blog-entry h2 {
+	font-size: 1.6rem;
+}
