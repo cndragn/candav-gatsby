@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 const Social = () => (
 	<div className="social">
@@ -12,6 +13,9 @@ const Social = () => (
 				<a href="https://github.com/cndragn" target="_blank" rel="noopener noreferrer">
 					GitHub
 				</a>
+			</li>
+			<li>
+				<Link to="/blog">Blog</Link>
 			</li>
 			<li>
 				<a
