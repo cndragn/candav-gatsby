@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
-// import './post.css';
+import Img from 'gatsby-image';
 import Layout from '../../components/layout';
 
 const IndexPage = (props) => {
@@ -8,17 +8,20 @@ const IndexPage = (props) => {
 	return (
 		<Layout>
 			<div className="archive container">
-				{postList.edges.map(({ node }, i) => (
-					<Link to={node.fields.slug} className="link">
-						<div className="post-list">
-							<h1 className="blog-title">{node.frontmatter.title}</h1>
-							<div className="blog-entry">
-								<p>{node.frontmatter.date}</p>
-								<p>{node.excerpt}</p>
+				<div className="row">
+					{postList.edges.map(({ node }, i) => (
+						<Link to={node.fields.slug} className="link col-md-6 col-lg-4">
+							<div className="post-list">
+								<Img fluid={node.frontmatter.image.childImageSharp.fluid} />
+								<div className="blog-entry">
+									<p>{node.frontmatter.date}</p>
+									<h1 className="blog-title">{node.frontmatter.title}</h1>
+									<p>{node.excerpt}</p>
+								</div>
 							</div>
-						</div>
-					</Link>
-				))}
+						</Link>
+					))}
+				</div>
 			</div>
 		</Layout>
 	);
@@ -32,10 +35,20 @@ export const listQuery = graphql`
 					fields {
 						slug
 					}
-					excerpt(pruneLength: 150)
+					excerpt(pruneLength: 140)
 					frontmatter {
 						date(formatString: "MMMM Do YYYY")
 						title
+						image {
+							childImageSharp {
+								resize(width: 1140, height: 300) {
+									src
+								}
+								fluid(maxWidth: 786) {
+									...GatsbyImageSharpFluid
+								}
+							}
+						}
 					}
 				}
 			}

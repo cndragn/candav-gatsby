@@ -1,7 +1,7 @@
 ---
 title: "THIRD Blog Post!"
 description: This post is related to the gatsbyjs
-date: '2018-09-26'
+date: '2018-09-28'
 image: '../first-post/time.jpg'
 ---
 Don't build a website with last decade's tech. The future of the web is mobile,
