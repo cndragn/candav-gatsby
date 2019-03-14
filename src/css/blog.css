@@ -2,6 +2,26 @@
 	margin-bottom: 30px;
 }
 
+.archive {
+	margin-top: 30px;
+}
+
+.archive .blog-entry {
+	border: 2px solid #fff;
+}
+
+.archive .blog-entry:hover {
+	border: 2px solid #20a2ce;
+}
+
+.archive a {
+	color: #212529;
+}
+
+.archive a:hover {
+	color: #104656;
+}
+
 .blog-title {
 	color: #fff;
 	border-bottom: 4px solid #20a2ce;

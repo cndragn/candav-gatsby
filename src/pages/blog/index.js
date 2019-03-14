@@ -7,15 +7,19 @@ const IndexPage = (props) => {
 	const postList = props.data.allMarkdownRemark;
 	return (
 		<Layout>
-			{postList.edges.map(({ node }, i) => (
-				<Link to={node.fields.slug} className="link">
-					<div className="post-list">
-						<h1>{node.frontmatter.title}</h1>
-						<span>{node.frontmatter.date}</span>
-						<p>{node.excerpt}</p>
-					</div>
-				</Link>
-			))}
+			<div className="archive container">
+				{postList.edges.map(({ node }, i) => (
+					<Link to={node.fields.slug} className="link">
+						<div className="post-list">
+							<h1 className="blog-title">{node.frontmatter.title}</h1>
+							<div className="blog-entry">
+								<p>{node.frontmatter.date}</p>
+								<p>{node.excerpt}</p>
+							</div>
+						</div>
+					</Link>
+				))}
+			</div>
 		</Layout>
 	);
 };
@@ -28,7 +32,7 @@ export const listQuery = graphql`
 					fields {
 						slug
 					}
-					excerpt(pruneLength: 250)
+					excerpt(pruneLength: 150)
 					frontmatter {
 						date(formatString: "MMMM Do YYYY")
 						title
