@@ -8,16 +8,16 @@
 
 .archive .gatsby-image-wrapper {
 	margin: 0;
+	padding-bottom: 35%;
 }
 
 .archive .blog-entry {
 	padding: 15px;
+	text-align: center;
 }
 
-.archive h1.blog-title {
-	color: #104656;
+.archive-title {
 	font-size: 1.3rem;
-	border: 0;
 }
 
 .archive p {
@@ -25,13 +25,13 @@
 	margin-bottom: 5px;
 }
 
-.archive a {
+/* .archive a {
 	color: #212529;
 }
 
 .archive a:hover {
 	color: #104656;
-}
+} */
 
 .blog-title {
 	color: #fff;

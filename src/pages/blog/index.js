@@ -10,16 +10,19 @@ const IndexPage = (props) => {
 			<div className="archive container">
 				<div className="row">
 					{postList.edges.map(({ node }, i) => (
-						<Link to={node.fields.slug} className="link col-md-6 col-lg-4">
+						<div className="link col-md-6 col-lg-4">
 							<div className="post-list">
 								<Img fluid={node.frontmatter.image.childImageSharp.fluid} />
 								<div className="blog-entry">
 									<p>{node.frontmatter.date}</p>
-									<h1 className="blog-title">{node.frontmatter.title}</h1>
+									<Link className="archive-title" to={node.fields.slug}>
+										{node.frontmatter.title}
+									</Link>
 									<p>{node.excerpt}</p>
+									<Link to={node.fields.slug}>Read more...</Link>
 								</div>
 							</div>
-						</Link>
+						</div>
 					))}
 				</div>
 			</div>
