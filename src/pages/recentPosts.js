@@ -1,11 +1,9 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Img from 'gatsby-image';
-import Layout from '../components/layout';
 
 const RecentPosts = (props) => {
-	const result = props.data;
 	const postList = props.data.data.allMarkdownRemark;
+	console.log(postList);
 	return (
 		<div>
 			{postList.edges.slice(0, 3).map(({ node }, i) => (

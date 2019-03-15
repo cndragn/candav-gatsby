@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
 import RecentPosts from '../pages/recentPosts';
 
 const Details = (props) => {
