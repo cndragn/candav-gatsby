@@ -100,19 +100,12 @@ p.lead {
 	background-color: #f9f6e6;
 	margin-bottom: 50px;
 }
-.social ul {
-	padding: 1em;
-	margin: 0;
-	text-align: center;
+
+.social .nav {
+	justify-content: space-around;
+	align-items: center;
+	padding: 1em 0;
 }
-.social li {
-	display: inline;
-	margin: 0 1.6em;
-}
-/* .social a {
-	color: #117390;
-	text-decoration: none;
-} */
 
 /* BIO */
 .bio img {
@@ -202,6 +195,12 @@ body .blog {
 
 /* MEDIA QUERY */
 @media screen and (max-width: 850px) {
+}
+@media screen and (min-width: 768px) {
+	.social .nav {
+		width: 50%;
+		margin: 0 auto;
+	}
 }
 
 @media screen and (max-width: 769px) {

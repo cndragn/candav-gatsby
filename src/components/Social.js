@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 const Social = () => (
 	<div className="social">
-		<ul>
+		<ul className="nav">
 			<li>
 				<a href="https://www.linkedin.com/in/candicedavidson/" target="_blank" rel="noopener noreferrer">
 					LinkedIn
