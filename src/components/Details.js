@@ -1,5 +1,5 @@
 import React from 'react';
-import RecentPosts from '../pages/recentPosts';
+// import RecentPosts from '../pages/recentPosts';
 
 const Details = (props) => {
 	return (
@@ -36,13 +36,15 @@ const Details = (props) => {
 							</p>
 						</div>
 					</div>
+					{/*
 					<div className="card">
 						<div className="card-body">
 							<h3 className="card-title">Recent Posts</h3>
 							<p className="card-text" />
-							<RecentPosts data={props.data} />
+							 <RecentPosts data={props.data} /> 
 						</div>
 					</div>
+					*/}
 				</div>
 			</div>
 		</div>
