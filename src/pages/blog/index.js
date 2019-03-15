@@ -42,7 +42,7 @@ export const listQuery = graphql`
 					}
 					excerpt(pruneLength: 130)
 					frontmatter {
-						date(formatString: "MMMM Do YYYY")
+						date(formatString: "MMMM DD, YYYY")
 						title
 						image {
 							childImageSharp {
