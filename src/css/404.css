@@ -1,9 +1,21 @@
+.notfound {
+	margin: 30px;
+}
+.notfound a {
+	color: #fff;
+	text-decoration: none;
+}
+.notfound a:hover {
+	color: #ddebef;
+}
+
 h1.uhoh {
 	font-size: 4rem;
+	margin-top: 30px;
 }
-.notfound {
+.notfound .content {
 	width: 80%;
-	margin: 0 auto;
+	margin: 0 auto 30px;
 }
 .notfound img {
 	width: 500px;

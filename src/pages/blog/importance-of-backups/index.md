@@ -10,9 +10,9 @@ Sent me an email 15 years ago? I've got it.  Need to reference a text message fr
 
 ## I lost my blog
 
-So, what happened was...  I still had an expensive reseller account from my freelance days. I decided not to renew it and revamp my site to host it on [Surge](https://surge.sh) but between my apprenticeship and then the job hunt it was on the backburner. A couple days ago, my hosting was suspended. After I redid my site and was ready to get my blog done I realized I have no backups!  The last one was just before I came to Seattle, but its on my desktop which is in storage in Miami. Clever!
+So, what happened was...  I still had an expensive reseller account from my freelance days. I decided not to renew it and revamp my site to host it on [Surge](https://surge.sh) but between my apprenticeship and then the job hunt it was on the backburner until a couple days ago when my hosting was suspended. After I redid my site and was ready to get my blog done I realized I have no backups!  The last one was just before I came to Seattle, but its on my desktop which is in storage in Miami. Clever!
 
-I salavaged a couple posts using [Wayback Machine](https://archive.org/web/) but the most recent ones about the LEAP application and interview process are gone. Really sucks because of how many people have found it helpful.  I'll re-write them, but man...what a loss. I don't like having to admit I messed up like this, but onwards. I'm backing everything up to the cloud from now on because I so do not want to deal with this again.
+I salavaged a couple posts using [Wayback Machine](https://archive.org/web/) but the most recent ones about the LEAP application and interview process are gone. Really sucks because of how many people have found it helpful.  I'll re-write them, but man...what a loss. I don't like having to admit I messed up, but I'm not afraid to own my mistakes, fix it and move forward. I'm backing everything up to the cloud from now on because I so do not want to deal with this again!
 
 ## WordPress to Gatsby
 
