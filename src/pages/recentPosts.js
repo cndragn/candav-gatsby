@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 const RecentPosts = (props) => {
-	const postList = props.data.data.allMarkdownRemark;
+	const results = props.data;
+	const postList = results.data.allMarkdownRemark;
 	console.log(postList);
 	return (
 		<div>
