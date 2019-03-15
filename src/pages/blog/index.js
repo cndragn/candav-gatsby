@@ -4,13 +4,14 @@ import Img from 'gatsby-image';
 import Layout from '../../components/layout';
 
 const IndexPage = (props) => {
+	console.log(props);
 	const postList = props.data.allMarkdownRemark;
 	return (
 		<Layout>
 			<div className="archive container">
 				<div className="row">
 					{postList.edges.map(({ node }, i) => (
-						<div className="link col-md-6 col-lg-4">
+						<div className="link col-md-6 col-lg-4" key={i}>
 							<div className="post-list">
 								<Link to={node.fields.slug}>
 									<Img fluid={node.frontmatter.image.childImageSharp.fluid} />
