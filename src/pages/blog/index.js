@@ -12,7 +12,9 @@ const IndexPage = (props) => {
 					{postList.edges.map(({ node }, i) => (
 						<div className="link col-md-6 col-lg-4">
 							<div className="post-list">
-								<Img fluid={node.frontmatter.image.childImageSharp.fluid} />
+								<Link to={node.fields.slug}>
+									<Img fluid={node.frontmatter.image.childImageSharp.fluid} />
+								</Link>
 								<div className="blog-entry">
 									<p>{node.frontmatter.date}</p>
 									<Link className="archive-title" to={node.fields.slug}>
@@ -38,7 +40,7 @@ export const listQuery = graphql`
 					fields {
 						slug
 					}
-					excerpt(pruneLength: 140)
+					excerpt(pruneLength: 130)
 					frontmatter {
 						date(formatString: "MMMM Do YYYY")
 						title
