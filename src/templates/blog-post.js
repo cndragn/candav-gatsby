@@ -27,6 +27,7 @@ function BlogPost({ data, location, pageContext }) {
 					<h1 className="blog-title">{title}</h1>
 					<h2 className="blog-date">{date}</h2>
 					<div className="blog-entry">
+						<p className="time">Time to read: {post.timeToRead}m</p>
 						<div dangerouslySetInnerHTML={{ __html: post.html }} />
 						<PrevNext prev={prev && prev.node} next={next && next.node} />
 					</div>
@@ -57,6 +58,7 @@ export const query = graphql`
 					}
 				}
 			}
+			timeToRead
 		}
 		site {
 			siteMetadata {
