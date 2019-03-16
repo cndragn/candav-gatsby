@@ -12,7 +12,6 @@ function BlogPost({ data, location, pageContext }) {
 	const { title, description, date } = post.frontmatter;
 	const thumbnail = post.frontmatter.image.childImageSharp.resize.src;
 	const { prev, next } = pageContext;
-	console.log(date);
 	return (
 		<Layout>
 			<Metatags
@@ -28,7 +27,7 @@ function BlogPost({ data, location, pageContext }) {
 					<h1 className="blog-title">{title}</h1>
 					<h2 className="blog-date">{date}</h2>
 					<div className="blog-entry">
-						<p className="time">Time to read: {post.timeToRead}m</p>
+						<p className="time">Time to read: {post.timeToRead} min</p>
 						<div dangerouslySetInnerHTML={{ __html: post.html }} />
 						<PrevNext prev={prev && prev.node} next={next && next.node} />
 					</div>

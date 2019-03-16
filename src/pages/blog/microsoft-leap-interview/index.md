@@ -9,7 +9,7 @@ If you've made it to the interview stage, congratulations!  Getting this far is 
 
 >This is part two of a three part series\
 >Part One: [Microsoft Leap: The Application](/blog/microsoft-leap-application/)\
->Part Three: Microsoft Leap: The Experience (Coming Soon)
+>Part Three: [Microsoft Leap: The Experience](/blog/microsoft-leap-experience/)
 
 ## Interview Basics
 
@@ -62,6 +62,6 @@ If you don't get that acceptance letter, do not get discouraged!  There are only
 
 >This is part two of a three part series\
 >Part One: [Microsoft Leap: The Application](/blog/microsoft-leap-application)\
->Part Three: Microsoft Leap: The Experience (Coming Soon)
+>Part Three: [Microsoft Leap: The Experience](/blog/microsoft-leap-experience/)
 
 *Featured image by DeborahNigbur from Pixabay*

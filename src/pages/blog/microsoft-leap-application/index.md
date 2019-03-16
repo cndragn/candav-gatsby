@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Leap: The Application"
 description: 
-date: '2019-03-15T12:10'
+date: '2019-03-15T12:00'
 image: 'featured2.jpg'
 ---
 
@@ -9,7 +9,7 @@ Competition to get into LEAP is fierce. For my cohort over 800 applied, around 1
 
 >This is part one of a three part series\
 >Part Two: [Microsoft Leap:: The Interview](/blog/microsoft-leap-interview/)\
->Part Three: Microsoft Leap: The Experience (Coming Soon)
+>Part Three: [Microsoft Leap: The Experience](/blog/microsoft-leap-experience/)
 
 ## What is Microsoft LEAP?
 
@@ -69,6 +69,6 @@ If you are selected, congratulations!  Onwards to the interview!
 
 >This is part one of a three part series\
 >Part Two: [Microsoft Leap:: The Interview](/blog/microsoft-leap-interview/)\
->Part Three: Microsoft Leap: The Experience (Coming Soon)
+>Part Three: [Microsoft Leap: The Experience](/blog/microsoft-leap-experience/)
 
 *Featured image by Alex from Pexels*

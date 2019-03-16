@@ -4,7 +4,6 @@ import Img from 'gatsby-image';
 import Layout from '../../components/layout';
 
 const IndexPage = (props) => {
-	console.log(props);
 	const postList = props.data.allMarkdownRemark;
 	return (
 		<Layout>
