@@ -64,5 +64,4 @@ This is Part two of a three part series\
 Part One: [Microsoft Leap: The Application](/blog/microsoft-leap-application)\
 Part Three: Microsoft Leap: The Experience (Coming Soon)
 
-*Featured image by DeborahNigbur from Pixabay*\
-*LEAP logo by Microsoft LEAP*
+*Featured image by DeborahNigbur from Pixabay*

@@ -52,3 +52,14 @@ h2.blog-date {
 .blog-entry img {
 	max-width: 100%;
 }
+
+.blog-entry em {
+	font-size: 0.7rem;
+}
+
+.prevnext {
+	border-top: 2px solid #5fbb86;
+}
+.prevnext p {
+	margin: 1rem 0;
+}

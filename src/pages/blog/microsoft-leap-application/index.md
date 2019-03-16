@@ -71,5 +71,4 @@ This is Part one of a three part series\
 Part Two: [Microsoft Leap: The Interview](/blog/microsoft-leap-interview)\
 Part Three: Microsoft Leap: The Experience (Coming Soon)
 
-*Featured image by Alex from Pexels*\
-*LEAP logo by Microsoft LEAP*
+*Featured image by Alex from Pexels*

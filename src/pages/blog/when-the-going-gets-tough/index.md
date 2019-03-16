@@ -22,5 +22,4 @@ One other thing, that I also have problems with (yes, I have problems taking my 
 
 I hope that helps!
 
-*Featured image by Pixabay from Pexels*\
-*LEAP logo by Microsoft LEAP*
+*Featured image by Pixabay from Pexels*

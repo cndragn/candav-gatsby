@@ -47,10 +47,10 @@ export const listQuery = graphql`
 						title
 						image {
 							childImageSharp {
-								resize(width: 1140, height: 300) {
+								resize(width: 1200, height: 200) {
 									src
 								}
-								fluid(maxWidth: 786) {
+								fluid(maxWidth: 1200) {
 									...GatsbyImageSharpFluid
 								}
 							}
