@@ -1,3 +1,5 @@
+@import 'https://use.fontawesome.com/releases/v5.7.2/css/all.css';
+
 .gatsby-image-wrapper {
 	margin-bottom: 30px;
 }
@@ -49,6 +51,14 @@ h2.blog-date {
 	font-size: 1.6rem;
 }
 
+.blog-entry blockquote {
+	margin: 0 0 1rem;
+	background-color: #d6ffe8;
+	border-left: 5px solid #78e6a7;
+	padding: 10px;
+	font-size: 1rem;
+}
+
 .blog-entry img {
 	max-width: 100%;
 }
@@ -61,5 +71,9 @@ h2.blog-date {
 	border-top: 2px solid #5fbb86;
 }
 .prevnext p {
-	margin: 1rem 0;
+	margin: 1rem 0 0;
+}
+
+.prevnext span {
+	font-size: 2rem;
 }
