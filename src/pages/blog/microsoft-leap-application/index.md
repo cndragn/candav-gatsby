@@ -2,7 +2,7 @@
 title: "Microsoft Leap: The Application"
 description: 
 date: '2019-03-15'
-image: 'featured.jpg'
+image: 'featured2.jpg'
 ---
 
 Competition to get into LEAP is fierce. For my cohort over 800 applied, around 100 interviewed and about 35 of us made it in. As more people find out about LEAP, it will not get any easier, so it's worth it to take this step seriously.
