@@ -7,6 +7,10 @@ image: 'featured.jpg'
 
 Competition to get into LEAP is fierce. For my cohort over 800 applied, around 100 interviewed and about 35 of us made it in. As more people find out about LEAP, it will not get any easier, so it's worth it to take this step seriously.
 
+This is Part one of a three part series
+Part Two: [Microsoft Leap: The Interview](microsoft-leap-interview)
+Part Three: Microsoft Leap: The Experience (Coming Soon)
+
 ## What is Microsoft LEAP?
 
 Microsoft LEAP is an apprenticeship for those coming in to the tech industry from non-traditional backgrounds.  Usually, those landing a job in tech are coming in as a college hire after completing internships, or industry hire with several years of experience.  This leaves a really huge gap for those who are self taught and/or have attended a bootcamp to fall through.
@@ -23,13 +27,25 @@ The one that worried me was "bachelors degree or greater preferred."  While the 
 
 I see many people glaze over the 6+ months of experience.  You are not going to go from zero to bootcamp then apply and get into LEAP.  On that note, don't feel like you have to already have a tech job either. Freelancing, major contributors to open source projects, teaching and other stuff like that is good too.
 
-## The Application
+## Pick your path
+
+There are three tracks for you to choose from: Software Engineer, Technical Program Manager and Support Engineer. I chose Software Engineer, so keep in mind I'm sharing my experience from that perspective. 
+
+I've seen people apply for the Program Manager track because they feel are not strong enough coders and believe their odds will be better. Bad idea. For one, there are about 4 PMs in a cohort of 35. The PM track is not easier by a long shot. If thats not where your skills and interests are, it will actually be much harder on you. Btw, Techincal PM's must know how to code, so theres that.
+
+The Support Engineer track opened up after my time in LEAP, so I cant' say much about it, but understand its similiar to the Software Engineer track.
 
 The application itself is deceivingly simple.  It consists of basic info, a resume and two essay questions.  This means you really need to put in the effort to stand out from everyone else who is applying.
 
+## Prepare Your Resume
+
 You will need to submit your resume in markdown on gist.  I suggest not using html since there is no way to make sure it displays correctly on any screen size.  Markdown is super flexible to create a nice layout and the [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is a great resource.  
 
-For your essays, there's a limit of around 1500 characters (including spaces) per essay. This is your chance to show your personality and what you're like to work with, so definitely use all the space you are allowed.  Write your essay in a document then paste it over or you'll risk losing it all.
+It's tempting to try and make yourself appear as impressive as possible, but don't put anything in there that you are not confident in.  You don't just want to make it to the interview stage based on what you think they want, you want to make it all the way based on what you have to offer. I'll go into more detail in my post about the interview, but for now, just keep in mind that anything you put in your resume is fair game.
+
+## Write Your Essays
+
+There's a limit of around 1500 characters (including spaces) per essay. This is your chance to show your personality and what you're like to work with, so definitely use all the space you are allowed.  Write your essay in a document then paste it over or you'll risk losing it all.
 
 The prompt for the first essay is along the lines of "Why are you interested in programming?" Don't just say you like figuring things out and writing code, explain why. If a friend asked you why you want to become a developer, what would you say to express your interest and excitement?  Write that down!  I shared a personal story and described the how different aspects of programming appeal to my interests and personality.
 
@@ -50,6 +66,10 @@ The application window is generally open for about a month. Once it closes, it t
 If you are not selected for an interview, don't take it personally.  Just take some time to review your essays, keep learning and working on your projects to add to your experience, and apply again. There's no cooling off period so go for it!
 
 If you are selected, congratulations!  Onwards to the interview!
+
+This is Part one of a three part series
+Part Two: [Microsoft Leap: The Interview](microsoft-leap-interview)
+Part Three: Microsoft Leap: The Experience (Coming Soon)
 
 *Featured image by Alex from Pexels*\
 *LEAP logo by Microsoft LEAP*
