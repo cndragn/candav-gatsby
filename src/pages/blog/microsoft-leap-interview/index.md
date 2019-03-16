@@ -8,7 +8,7 @@ image: 'featured.jpg'
 If you've made it to the interview stage, congratulations!  Getting this far is already a huge accomplishment. Since I did the Software Engineer track, I'll be sharing my interview experience from that perspective.
 
 This is Part two of a three part series\
-Part One: [Microsoft Leap: The Application](microsoft-leap-application)\
+Part One: [Microsoft Leap: The Application](/blog/microsoft-leap-application/)\
 Part Three: Microsoft Leap: The Experience (Coming Soon)
 
 ## Interview Basics
@@ -61,7 +61,7 @@ If you don't get that acceptance letter, do not get discouraged!  Everyone who p
 
 
 This is Part two of a three part series\
-Part One: [Microsoft Leap: The Application](microsoft-leap-application)\
+Part One: [Microsoft Leap: The Application](/blog/microsoft-leap-application)\
 Part Three: Microsoft Leap: The Experience (Coming Soon)
 
 *Featured image by Engin from Pexels*\

@@ -8,7 +8,7 @@ image: 'featured.jpg'
 Competition to get into LEAP is fierce. For my cohort over 800 applied, around 100 interviewed and about 35 of us made it in. As more people find out about LEAP, it will not get any easier, so it's worth it to take this step seriously.
 
 This is Part one of a three part series
-Part Two: [Microsoft Leap: The Interview](microsoft-leap-interview)
+Part Two: [Microsoft Leap:: The Interview](/blog/microsoft-leap-interview/)
 Part Three: Microsoft Leap: The Experience (Coming Soon)
 
 ## What is Microsoft LEAP?
@@ -67,8 +67,8 @@ If you are not selected for an interview, don't take it personally.  Just take s
 
 If you are selected, congratulations!  Onwards to the interview!
 
-This is Part one of a three part series
-Part Two: [Microsoft Leap: The Interview](microsoft-leap-interview)
+This is Part one of a three part series\
+Part Two: [Microsoft Leap: The Interview](/blog/microsoft-leap-interview)\
 Part Three: Microsoft Leap: The Experience (Coming Soon)
 
 *Featured image by Alex from Pexels*\
