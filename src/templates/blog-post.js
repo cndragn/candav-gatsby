@@ -12,6 +12,7 @@ function BlogPost({ data, location, pageContext }) {
 	const { title, description, date } = post.frontmatter;
 	const thumbnail = post.frontmatter.image.childImageSharp.resize.src;
 	const { prev, next } = pageContext;
+	console.log(date);
 	return (
 		<Layout>
 			<Metatags

@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Leap: The Application"
 description: 
-date: '2019-03-15'
+date: '2019-03-15T12:10'
 image: 'featured2.jpg'
 ---
 
