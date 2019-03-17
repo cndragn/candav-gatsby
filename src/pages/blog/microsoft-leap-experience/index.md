@@ -39,7 +39,7 @@ At the time I got here, there was no relocation assistance offered.  I came here
 
  Uber is pretty quick around here...I found Lyft to be more expensive.  It's all expensive though...great for emergencies but not an every day option.
 
- Microsoft has a Connector bus, but its only available for full time employees. You can use the shuttles to get to other campus' and also the on demand ride to get around the Redmond main campus.  
+ Microsoft has a Connector bus, but its only available for full time employees. You can use the shuttles to get to other campus' and also the on demand ride to get around the Redmond main campus though.  
 
  ## Pre-LEAP Preparations
 

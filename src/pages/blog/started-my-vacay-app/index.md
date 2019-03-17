@@ -3,6 +3,7 @@ title: "Started My Vacay App"
 description: 
 date: '2018-05-07'
 image: 'featured.jpg'
+draft: false
 ---
 
 I have what I think is a pretty good idea for a vacation app. Now that I’ve learned React, I would like to put it to good use and build my app with Rails in the back end and React in the front end. I got everything all set up, and then I stared at it..and stared at it. Kinda realized I have no idea where to even start! I’m sure I just need to relax and take things step by step, but feeling kind of overwhelmed with all my ideas of what needs to be done, and how to get just that first bit started so that I can take off.
