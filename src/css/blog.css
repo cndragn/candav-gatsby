@@ -1,16 +1,17 @@
 @import 'https://use.fontawesome.com/releases/v5.7.2/css/all.css';
 
-.gatsby-image-wrapper {
-	margin-bottom: 30px;
-}
-
 .archive {
 	margin-top: 30px;
 }
 
 .archive .gatsby-image-wrapper {
 	margin: 0;
-	padding-bottom: 25%;
+	/* padding-bottom: 25%;
+	margin-bottom: 30px; */
+}
+
+.archive .gatsby-image-wrapper img {
+	height: auto !important;
 }
 
 .archive .blog-entry {
