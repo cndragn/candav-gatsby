@@ -24,6 +24,33 @@ GraphQL appealed to me as I've never used it before. Wasn't sure about the learn
 
 ## Getting Set Up
 
-`stuff to code`
+I'm not going to go into this tutorial style because there are already so many resources online, so I'll just share with you what I found that helped me get up and running.  
+
+[Gatsby.js Documentation](https://www.gatsbyjs.org/docs/) - The docs for Gatsby really are amazing.  Very easy to get through and understand. Start here!
+
+[Reactgo - Build and advanced blog using Gatsby and React](https://reactgo.com/gatsby-advanced-blog-tutorial/) - Beyond the basics, this tutorial goes over more stuff like adding images, which I used to create featured images for my posts, prev and next links and seo.
+
+There are a few things I did differently. Since I wanted the home page of my site to be my portfolio, I created an additional page for the list of blog posts.  From here, I was able to easily add the featured image to my blog list.
+
+I also wanted a short list of recent posts to my home page. Since Gatsby only looks in the "pages" folder, I had to move that code out of a component and put it directly inside of my index.js.  
+
+## Customize-o-matic
+
+After coming from WordPress, I really love how stripped down Gatsby is, and how easy it is to add the features I do want.  Super flexible too...I'm really excited about that.
+
+[gatsby-transformer-sharp](https://www.gatsbyjs.org/packages/gatsby-transformer-sharp/)
+Used to resize, crop and produce responsive images. Also adds a blur effect as it loads to speed up load time.
+
+[gatsby-plugin-catch-links](https://www.gatsbyjs.org/packages/gatsby-plugin-catch-links/) - Prevents the browser from refreshing when linking to a local page, keeping that React SPA feel.
+
+Additional features I added just by adding a few lines of code are adding metadata for SEO, Pre and Next links to navigate through blog posts, display time to read in posts, ability to create draft posts and code syntax highlighting.
+
+Next, Id like to add in the ability to share my posts on social media. If you see share links down below, then it worked :)
+
+## Final Thoughts
+
+Adding each feature took just a few minutes and really was no big deal at all.  Its also really easy to integreate and style everything into my blog design.  I gave myself a week to get it done, and had it set up in two days with the rest of the time adding in features and doing nitpicky styling. So far, there is nothing I don't like about Gatsby, and I'm really happy with my choice.
+
+I can't shake it that I was not able to get Jekyll to work though.  So many people love it, so I feel like I'm missing out. Mostly, I dont like having that gap in my knowledge, so I need to give it another shot to see where I went wrong when I tried it a year ago.  Challenge accepted!
 
 *Featured image Gatsby Logo*
