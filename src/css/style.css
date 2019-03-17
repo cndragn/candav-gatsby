@@ -53,6 +53,14 @@ figcaption a:hover {
 	color: #ddebef;
 }
 
+/* RECENT POSTS */
+.recent {
+	display: flex;
+}
+.recent span {
+	text-align: center;
+}
+
 /* JUMBOTRON */
 .jumbotron {
 	background: linear-gradient(to bottom right, #2cb2d9 25%, #34c587 75%);

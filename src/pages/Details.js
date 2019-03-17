@@ -25,7 +25,7 @@ const Details = (props) => {
 				<div className="contact col-sm-12 col-md-5">
 					<div className="card">
 						<div className="card-body">
-							<h3 className="card-title">Get In Touch</h3>
+							<h3 className="card-title">Get In Touchl</h3>
 							<p className="card-text">
 								<i className="fa fa-envelope" aria-hidden="true" />
 								<a href="mailto:cndragn@gmail.com">cndragn@gmail.com</a>
@@ -36,15 +36,13 @@ const Details = (props) => {
 							</p>
 						</div>
 					</div>
-					{/*
 					<div className="card">
 						<div className="card-body">
 							<h3 className="card-title">Recent Posts</h3>
 							<p className="card-text" />
-							 <RecentPosts data={props.data} /> 
+							{/* <RecentPosts /> */}
 						</div>
 					</div>
-					*/}
 				</div>
 			</div>
 		</div>
