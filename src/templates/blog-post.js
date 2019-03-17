@@ -1,9 +1,12 @@
 import React from 'react';
+import { graphql } from 'gatsby';
+
 import Layout from '../components/layout';
 import PrevNext from '../components/PrevNext';
 import Img from 'gatsby-image';
 import Metatags from '../components/Metatags';
-import { graphql } from 'gatsby';
+import Share from '../components/Share';
+
 import '../css/blog.css';
 
 function BlogPost({ data, location, pageContext }) {
@@ -29,6 +32,7 @@ function BlogPost({ data, location, pageContext }) {
 					<div className="blog-entry">
 						<p className="time">Time to read: {post.timeToRead} min</p>
 						<div dangerouslySetInnerHTML={{ __html: post.html }} />
+						<Share title={title} url={url} pathname={location.pathname} />
 						<PrevNext prev={prev && prev.node} next={next && next.node} />
 					</div>
 				</div>

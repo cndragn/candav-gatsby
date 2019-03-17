@@ -201,16 +201,20 @@ body .blog {
 	list-style-type: none;
 }
 
-/* MEDIA QUERY */
-@media screen and (max-width: 850px) {
+/* SHARE */
+.share a:hover {
+	opacity: 0.7;
 }
-@media screen and (min-width: 768px) {
-	.social .nav {
-		width: 50%;
-		margin: 0 auto;
-	}
+.share .fab {
+	font-size: 1.4rem;
+	margin: 0 0.4rem;
 }
-
+.share .facebook {
+	color: #3c5a99;
+}
+.share .twitter {
+	color: #1da1f2;
+}
 /* SYNTAX HIGHLIGHTING
  */
 code {
@@ -220,6 +224,16 @@ code {
 	padding-right: 1em;
 	padding-left: 0.75em;
 	border-left: 0.25em solid #20a2ce;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 850px) {
+}
+@media screen and (min-width: 768px) {
+	.social .nav {
+		width: 50%;
+		margin: 0 auto;
+	}
 }
 
 @media screen and (max-width: 769px) {
