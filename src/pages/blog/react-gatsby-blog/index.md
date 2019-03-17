@@ -24,6 +24,6 @@ GraphQL appealed to me as I've never used it before. Wasn't sure about the learn
 
 ## Getting Set Up
 
-
+`stuff to code`
 
 *Featured image Gatsby Logo*

@@ -211,6 +211,17 @@ body .blog {
 	}
 }
 
+/* SYNTAX HIGHLIGHTING
+ */
+code {
+	background-color: #524e4e;
+	color: #ddebef !important;
+	display: block;
+	padding-right: 1em;
+	padding-left: 0.75em;
+	border-left: 0.25em solid #20a2ce;
+}
+
 @media screen and (max-width: 769px) {
 	.entry-title {
 		width: 100%;

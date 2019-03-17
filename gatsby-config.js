@@ -10,6 +10,16 @@ module.exports = {
 		`gatsby-plugin-react-helmet`,
 		`gatsby-transformer-remark`,
 		{
+			resolve: `gatsby-remark-prismjs`,
+			options: {
+				classPrefix: 'language-',
+				inlineCodeMarker: null,
+				aliases: {},
+				showLineNumbers: false,
+				noInlineHighlight: false
+			}
+		},
+		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
 				name: `images`,
