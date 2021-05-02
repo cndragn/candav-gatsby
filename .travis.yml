@@ -1,6 +1,8 @@
 language: node_js
 node_js:
   - "stable"
+install:
+  - npm install
 cache:
   directories:
     - node_modules
@@ -13,5 +15,3 @@ deploy:
   project: ./public/
 on:
   branch: master
-install:
-  - yarn
