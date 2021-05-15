@@ -33,7 +33,7 @@ const Details = props => {
               <h3 className="card-title">Get In Touch</h3>
               <p className="card-text">
                 <i className="fa fa-envelope" aria-hidden="true" />
-                <a href="mailto:cndragn@gmail.com">HeyaCandice@gmail.com</a>
+                <a href="mailto:HeyaCandice@gmail.com">HeyaCandice@gmail.com</a>
               </p>
               <p className="card-text">
                 <i className="fa fa-phone" aria-hidden="true" />
