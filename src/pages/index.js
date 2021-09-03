@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import "../css/style.css"
 import "../css/portfolio.css"
 
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Header from "../components/Header"
 import Social from "../components/Social"
 // import Details from './Details';
@@ -15,7 +15,7 @@ const IndexPage = props => {
   const postList = props.data.allMarkdownRemark
   return (
     <div id="home">
-      <SEO
+      <Seo
         title="Software Developer"
         keywords={[`gatsby`, `application`, `react`]}
       />

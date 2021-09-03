@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 import "../css/404.css"
 
@@ -10,7 +10,7 @@ import nope from "../images/nope.jpeg"
 const NotFoundPage = () => (
   <Layout>
     <div className="notfound">
-      <SEO title="404: Not found" />
+      <Seo title="404: Not found" />
       <h1 className="uhoh">Uh Oh!</h1>
       <div className="content">
         <h2>
